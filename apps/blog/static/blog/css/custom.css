@@ -1,0 +1,16 @@
+.tag-custom {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #e9ecef; /* Светло-серый фон как в Bootstrap */
+    color: #495057; /* Цвет текста по умолчанию Bootstrap */
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tag-custom:hover {
+    background-color: #0d6efd; /* Синий цвет при наведении (основной цвет Bootstrap 5) */
+    color: white; /* Белый текст при наведении */
+}
